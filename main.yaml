@@ -1,5 +1,10 @@
-- name: " seeting up {{ component }} server"
+- name: "setting up {{ component }} server"
   hosts: localhost
   become: yes
+
+  vars_files:
+    - group_vars/all.yaml
+    - group_vars/{{ component }}.yaml
+
   roles:
-  - "{{ component}}"
+    - "{{ component }}" 

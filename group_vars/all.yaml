@@ -1,8 +1,8 @@
-MONGODB_HOST: mongodb.mitha.fun
-REDIS_HOST: redis.mitha.fun
-MYSQL_HOST: mysql.mitha.fun
-CATALOGUE_HOST : catalogue.mitha.fun
-CART_HOST : cart.mitha.fun
-USER_HOST : user.mitha.fun
-RABBITMQ_HOST : rabbitmq.mitha.fun
-SHIPPING_HOST: shippinh.mitha.fun
+MONGODB_HOST: mongodb.{ env }.mitha.fun 
+REDIS_HOST: redis.{ env }.mitha.fun 
+MYSQL_HOST: mysql.{ env }.mitha.fun 
+CATALOGUE_HOST : catalogue.{ env }.mitha.fun 
+CART_HOST : cart.{ env }.mitha.fun 
+USER_HOST : user.{ env }.mitha.fun 
+RABBITMQ_HOST : rabbitmq.{ env }.mitha.fun 
+SHIPPING_HOST: shipping.{ env }.mitha.fun

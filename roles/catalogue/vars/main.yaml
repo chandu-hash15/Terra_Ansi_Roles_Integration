@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.mitha.fun
+MONGODB_HOST: mongodb.{ env }.mitha.fun

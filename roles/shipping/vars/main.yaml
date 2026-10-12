@@ -1,4 +1,4 @@
 USER: root
 PASSWORD: RoboShop@1
 version: 1.0
-MYSQL : mysql.mitha.fun
+MYSQL : mysql.backend-alb-dev.chathrun.fun

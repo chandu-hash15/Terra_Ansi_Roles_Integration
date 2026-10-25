@@ -6,3 +6,4 @@ CART_HOST : cart.backend-alb-{{ env }}.chathrun.fun
 USER_HOST : user.backend-alb-{{ env }}.chathrun.fun 
 RABBITMQ_HOST : rabbitmq.backend-alb-{{ env }}.chathrun.fun 
 SHIPPING_HOST: shipping.backend-alb-{{ env }}.chathrun.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.chathrun.fun
